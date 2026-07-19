@@ -34,7 +34,7 @@ params:
     title: "Sara Hania"
     subtitle: "Aspiring Software Engineer | AI & Machine Learning Enthusiast"
     content: "I am passionate about building technology that solves real-world problems. I explore software engineering, artificial intelligence, and emerging technologies through projects, research, and continuous learning."
-    image: "/images/me.jpg"
+    image: "images/me.jpg"
     button:
       enable: true
       name: "View My Work"
