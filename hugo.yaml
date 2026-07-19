@@ -1,0 +1,224 @@
+baseURL: "https://hugo-profile.netlify.app"
+languageCode: "en-us"
+title: "Sara Hania"
+theme: hugo-profile
+
+defaultContentLanguage: "en"
+defaultContentLanguageInSubdir: false
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+
+params:
+
+  title: "Sara Hania"
+  social:
+    enabled: true
+    title: "Connect with me"
+
+    networks:
+      - name: "github"
+        url: "https://github.com/sara-h7"
+
+      - name: "linkedin"
+        url: "https://www.linkedin.com/in/sarahania/"
+
+      - name: "email"
+        url: "mailto:sarahania.76@gmail.com"
+  
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Sara Hania"
+    subtitle: "Aspiring Software Engineer | AI & Machine Learning Enthusiast"
+    content: "I am passionate about building technology that solves real-world problems. I explore software engineering, artificial intelligence, and emerging technologies through projects, research, and continuous learning."
+    image: "/images/me.jpg"
+    button:
+      enable: true
+      name: "View My Work"
+      url: "#projects"
+  about:
+    enable: true
+    title: "About Me"
+    content: |-
+      I am a computer science enthusiast passionate about software engineering, artificial intelligence, and building solutions that create real-world impact.
+
+      My journey combines programming, research, entrepreneurship, leadership, and continuous self-learning. I enjoy exploring new technologies, developing projects, and using technology to solve meaningful problems.
+
+      Currently, I am focused on strengthening my skills in software development, AI, machine learning, and building innovative digital products.
+
+    skills:
+      enable: true
+      title: "Technologies and skills I am exploring:"
+      items:
+        - "Python"
+        - "JavaScript"
+        - "HTML & CSS"
+        - "Git & GitHub"
+        - "Artificial Intelligence"
+        - "Machine Learning"
+        - "Web Development"
+        - "Problem Solving"
+        - "Research"
+        - "Project Management"
+  experience:
+    enable: true
+    title: "Experience"
+
+    items:
+
+      - company: "ThinkNeuro"
+        companyUrl: ""
+        jobs:
+          - name: "Software Engineering Practicum Intern"
+            date: "June 2026 - Present"
+            content: |-
+              Developed practical software engineering skills through hands-on projects involving Git/GitHub, version control, debugging, APIs, and real-world development workflows.
+
+              Built software projects while applying engineering practices including documentation, collaboration, problem-solving, and iterative development.
+
+              Created a personal portfolio website and strengthened professional readiness by applying software development practices and project documentation skills.
+
+      - company: "EQ"
+        companyUrl: ""
+        jobs:
+          - name: "Operations & Technology Assistant"
+            date: "March 2026 - Present"
+            content: |-
+              Managed digital workflows and operational processes using Excel, Google Workspace, CRM platforms, and productivity tools to improve efficiency across client tasks.
+
+              Automated repetitive administrative processes using advanced Excel functions including VLOOKUP/XLOOKUP, Pivot Tables, and formulas, reducing manual workload.
+
+              Maintained and analyzed operational data records while ensuring accuracy across 500+ entries, reports, and business documents.
+
+              Collaborated with remote teams across different time zones, strengthening communication, problem-solving, and technology-driven workflow management.
+
+      - company: "Remote Real Estate Operations"
+        companyUrl: ""
+        jobs:
+          - name: "Client Outreach & Operations Assistant"
+            date: "2025 - Present"
+            content: |-
+              Supported real estate operations by conducting homeowner outreach, managing communication workflows, and assisting with lead generation activities.
+
+              Researched property information, maintained organized records, tracked conversations, and supported follow-up processes to improve operational efficiency.
+
+              Assisted with administrative coordination and digital workflows for remote business operations.
+
+      - company: "Uplift"
+        companyUrl: ""
+        jobs:
+          - name: "Dental Insurance Collections Specialist"
+            date: "2025 - Present"
+            content: |-
+              Managed account recovery and insurance follow-up processes for a Canadian dental practice by communicating with dental insurance providers.
+
+              Verified insurance information, reviewed claim details, followed up on outstanding accounts, and supported payment resolution processes.
+
+              Maintained accurate records and assisted with improving revenue cycle operations through organized documentation and communication.
+
+      - company: "Executive Support"
+        companyUrl: ""
+        jobs:
+          - name: "Personal Assistant to CEO & Operations Assistant"
+            date: "2025 - Present"
+            content: |-
+              Provided administrative and operational support to a CEO by managing schedules, communication, research, documentation, and daily business activities.
+
+              Coordinated multiple workflows, organized business information, and assisted with project execution and operational decision-making.
+
+              Handled professional communication, task management, and remote collaboration while ensuring efficient day-to-day operations.
+
+  projects:
+    enable: true
+    title: "Projects"
+
+    items:
+
+      - title: "PropelAI"
+        content: |-
+          An AI-powered platform designed to help students, graduates, and entrepreneurs improve career and business decision-making.
+
+          Building PropelAI with a team to develop AI-powered tools including a resume and cover letter builder, mock interview simulator with personalized feedback, and business idea analyzer.
+
+          The platform focuses on providing personalized recommendations based on user goals, experience, and background rather than generic templates.
+
+          Core features include AI interview scoring, ATS-optimized resume generation, business idea analysis, progress tracking, and personalized improvement recommendations.
+
+      - title: "AI & Machine Learning in University Admissions Research"
+        content: |-
+          Conducted an independent research project exploring how AI and machine learning-based recommendation systems can reduce university application misalignment.
+
+          Analyzed recommendation approaches and explored how data-driven systems could support better decision-making during the university application process.
+
+      - title: "Personal Portfolio Website"
+        content: |-
+          Designed and developed a personal portfolio website using Hugo to showcase technical projects, experience, skills, and professional growth.
+
+          Implemented website configuration, customization, and deployment workflows while learning modern web development practices.
+
+      - title: "ThinkNeuro Software Engineering Projects"
+        content: |-
+          Developed software engineering projects through the ThinkNeuro practicum while learning Git/GitHub workflows, APIs, debugging, documentation, and collaborative development practices.
+
+          Applied software engineering concepts through hands-on development projects and real-world engineering workflows.
+
+  achievements:
+    enable: true
+    title: "Achievements & Leadership"
+
+    items:
+
+      - title: "Project Meem — Liberate Book Club Department Member"
+        content: |-
+          Completed 85+ volunteer hours contributing to literacy initiatives and community engagement.
+
+          Organized a book drive that collected 50+ books to promote reading and improve access to educational resources.
+
+      - title: "The Citizen Foundation (TCF) — Summer Volunteer Program"
+        content: |-
+          Completed 100+ volunteer hours teaching English and foundational skills to 60+ underprivileged students.
+
+          Supported educational activities focused on improving learning opportunities and student development.
+
+      - title: "Dawn Education Expo — Volunteer Operations Team"
+        content: |-
+          Supported registration, logistics, and event operations for a 2-day education expo with 400+ attendees.
+
+          Assisted with coordination, organization, and attendee management to ensure smooth event execution.
+
+      - title: "Alpha College — Rufus House Core Team"
+        content: |-
+          Contributed to college event planning, operations, and creative development as part of the core team.
+
+          Designed promotional materials and supported the execution of annual college activities, contributing 20+ hours.
+
+      - title: "Student Leadership & Council Involvement"
+        content: |-
+          Participated in student leadership initiatives, representing peers and contributing to school and college activities.
+
+  education:
+    enable: true
+    title: "Education"
+
+    items:
+
+      - title: "A Levels"
+        school:
+          name: "Alpha College, Karachi"
+          url: ""
+        date: "2025 - 2027"
+        content: |-
+          Studying Mathematics, Physics, Chemistry, and Computer Science.
+
+          Focused on developing strong foundations in mathematics, programming, problem-solving, and scientific thinking.
+
+      - title: "O Levels"
+        school:
+          name: "Dawood Public School"
+          url: ""
+        date: "Completed"
+        content: |-
+          Completed O Levels with 9 A/A* grades, including 4 A* grades.
