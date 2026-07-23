@@ -64,73 +64,76 @@ params:
         - "Research"
         - "Project Management"
   experience:
-    enable: true
-    title: "Experience"
+  enable: true
+  title: "Experience"
 
-    items:
+  items:
 
-      - company: "ThinkNeuro"
-        companyUrl: ""
-        jobs:
-          - name: "Software Engineering Practicum Intern"
-            date: "June 2026 - Present"
-            content: |-
-              Developed practical software engineering skills through hands-on projects involving Git/GitHub, version control, debugging, APIs, and real-world development workflows.
+    - company: "ThinkNeuro"
+      companyUrl: ""
+      jobs:
+        - name: "Software Engineering Practicum Intern"
+          date: "June 2026 - Present"
+          content: |-
+            Developed practical software engineering skills through hands-on projects involving Git/GitHub, version control, debugging, APIs, and real-world software development workflows.
 
-              Built software projects while applying engineering practices including documentation, collaboration, problem-solving, and iterative development.
+            Built software projects while applying engineering best practices including documentation, collaboration, problem-solving, testing, and iterative development.
 
-              Created a personal portfolio website and strengthened professional readiness by applying software development practices and project documentation skills.
+            Designed and deployed a personal portfolio website while strengthening technical, project management, and software engineering skills through real-world development experiences.
 
-      - company: "EQ"
-        companyUrl: ""
-        jobs:
-          - name: "Operations & Technology Assistant"
-            date: "March 2026 - Present"
-            content: |-
-              Managed digital workflows and operational processes using Excel, Google Workspace, CRM platforms, and productivity tools to improve efficiency across client tasks.
+    - company: "Car Wash Management Services Inc."
+      companyUrl: ""
+      jobs:
+        - name: "Personal Assistant to CEO & Operations Assistant"
+          date: "June 2026 - Present"
+          content: |-
+            Provided executive, administrative, and operational support to the CEO by managing schedules, business communications, research, documentation, and day-to-day business operations.
 
-              Automated repetitive administrative processes using advanced Excel functions including VLOOKUP/XLOOKUP, Pivot Tables, and formulas, reducing manual workload.
+            Coordinated multiple business workflows, organized operational records, prepared reports, and supported project execution across various business initiatives.
 
-              Maintained and analyzed operational data records while ensuring accuracy across 500+ entries, reports, and business documents.
+            Managed marketing and outreach initiatives for new car wash business ventures, including LinkedIn networking, partnership outreach, content planning, and communication with prospective business partners.
 
-              Collaborated with remote teams across different time zones, strengthening communication, problem-solving, and technology-driven workflow management.
+            Assisted with business development, strategic planning, client relationship management, and remote collaboration to support company growth and operational efficiency.
 
-      - company: "Remote Real Estate Operations"
-        companyUrl: ""
-        jobs:
-          - name: "Client Outreach & Operations Assistant"
-            date: "2025 - Present"
-            content: |-
-              Supported real estate operations by conducting homeowner outreach, managing communication workflows, and assisting with lead generation activities.
+    - company: "EQ"
+      companyUrl: ""
+      jobs:
+        - name: "Real Estate Client Success Assistant & Outreach Manager"
+          date: "March 2026 - Present"
+          content: |-
+            Managed client communications through email, phone, messaging platforms, and Follow Up Boss (FUB) CRM, ensuring timely responses and consistent follow-up with buyers, sellers, landlords, and tenants.
 
-              Researched property information, maintained organized records, tracked conversations, and supported follow-up processes to improve operational efficiency.
+            Conducted outbound outreach to homeowners regarding foreclosure opportunities, discussing property status, foreclosure balances, available options, and maintaining consistent follow-up throughout the process.
 
-              Assisted with administrative coordination and digital workflows for remote business operations.
+            Maintained accurate CRM records, tracked client interactions, managed lead pipelines, and prepared daily reports to support business operations and improve lead conversion.
 
-      - company: "Uplift"
-        companyUrl: ""
-        jobs:
-          - name: "Dental Insurance Collections Specialist"
-            date: "2025 - Present"
-            content: |-
-              Managed account recovery and insurance follow-up processes for a Canadian dental practice by communicating with dental insurance providers.
+            Assisted with administrative operations, workflow management, client support, and remote team collaboration while ensuring a high standard of customer service.
 
-              Verified insurance information, reviewed claim details, followed up on outstanding accounts, and supported payment resolution processes.
+    - company: "GY Prime Estates"
+      companyUrl: ""
+      jobs:
+        - name: "Real Estate Client Success Assistant"
+          date: "July 2026 - Present"
+          content: |-
+            Managed client communications through email, phone, messaging platforms, and Follow Up Boss (FUB) CRM while providing professional support to buyers, sellers, landlords, and tenants.
 
-              Maintained accurate records and assisted with improving revenue cycle operations through organized documentation and communication.
+            Qualified, nurtured, and followed up with real estate leads, maintaining organized CRM records until appointments, applications, or transaction milestones were successfully completed.
 
-      - company: "Executive Support"
-        companyUrl: ""
-        jobs:
-          - name: "Personal Assistant to CEO & Operations Assistant"
-            date: "2025 - Present"
-            content: |-
-              Provided administrative and operational support to a CEO by managing schedules, communication, research, documentation, and daily business activities.
+            Assisted with property searches, listing preparation, Facebook Marketplace listings, lease applications, offer documentation, and client onboarding throughout the sales and leasing process.
 
-              Coordinated multiple workflows, organized business information, and assisted with project execution and operational decision-making.
+            Coordinated administrative operations, prepared daily activity reports, managed documentation, and supported remote business operations while delivering exceptional client service.
 
-              Handled professional communication, task management, and remote collaboration while ensuring efficient day-to-day operations.
+    - company: "Uplift"
+      companyUrl: ""
+      jobs:
+        - name: "Dental Insurance Collections Specialist"
+          date: "July 2025 - September 2025"
+          content: |-
+            Managed insurance collections and account recovery processes for a Canadian dental practice by communicating directly with insurance providers.
 
+            Verified insurance eligibility, reviewed claims, followed up on outstanding balances, and assisted with payment resolution processes.
+
+            Maintained accurate documentation, updated account records, and supported revenue cycle operations through organized communication and administrative support.
   projects:
     enable: true
     title: "Projects"
