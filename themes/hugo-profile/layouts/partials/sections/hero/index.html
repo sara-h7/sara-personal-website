@@ -11,22 +11,32 @@
                     {{ $hero.title }}
                 </h1>
                 <h2>
-                    {{ $hero.subtitle }}
-                </h2>
-                <p class="hero-content">
-                    {{ $hero.content | markdownify }}
-                </p>
+    {{ $hero.subtitle }}
+</h2>
+
+<div class="hero-badge">
+    🚀 Software Engineering | AI & Machine Learning | Research
+</div>
+
+<p class="hero-content">
+    {{ $hero.content | markdownify }}
                 <div class="row">
                     <div class="col-auto h-100">
-                        {{ if .Site.Params.hero.button.enable }}
-                        <a href="{{ .Site.Params.hero.button.url }}" class="btn" {{ cond .Site.Params.hero.button.download "download" "" }}
-			  {{ if .Site.Params.hero.button.newPage | default true }}
-                          target="_blank"
-                          {{ end }}>
-                            {{ $hero.button.name | default .Site.Params.hero.button.name }}
-                        </a>
-                        {{ end }}
-                    </div>
+    {{ if .Site.Params.hero.button.enable }}
+    <a href="{{ .Site.Params.hero.button.url }}" class="btn" {{ cond .Site.Params.hero.button.download "download" "" }}
+      {{ if .Site.Params.hero.button.newPage | default true }}
+      target="_blank"
+      {{ end }}>
+        {{ $hero.button.name | default .Site.Params.hero.button.name }}
+    </a>
+    {{ end }}
+
+    {{ if .Site.Params.hero.button2.enable }}
+    <a href="{{ .Site.Params.hero.button2.url }}" class="btn ms-2">
+        {{ .Site.Params.hero.button2.name }}
+    </a>
+    {{ end }}
+</div>
                     <div class="col-auto px-0 h-100">
                         {{- partial "sections/hero/social.html" . -}}
                     </div>

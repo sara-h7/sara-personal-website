@@ -14,6 +14,7 @@ languages:
 params:
 
   title: "Sara Hania"
+
   social:
     enabled: true
     title: "Connect with me"
@@ -27,21 +28,32 @@ params:
 
       - name: "email"
         url: "mailto:sarahania.76@gmail.com"
-  
+
+
   hero:
     enable: true
     intro: "Hi, my name is"
     title: "Sara Hania"
-    subtitle: "Aspiring Software Engineer | AI & Machine Learning Enthusiast"
-    content: "I am passionate about building technology that solves real-world problems. I explore software engineering, artificial intelligence, and emerging technologies through projects, research, and continuous learning."
+    subtitle: "Aspiring Software Engineer building AI-powered solutions and exploring machine learning, research, and impactful technology."
+    content : "I build software projects, explore artificial intelligence, and conduct research to solve meaningful problems through technology."
+
     image: "images/me.jpg"
+
     button:
       enable: true
       name: "View My Work"
       url: "#projects"
+
+    button2:
+      enable: true
+      name: "Resume"
+      url: "files/Sara_Hania_Resume.pdf"
+
+
   about:
     enable: true
     title: "About Me"
+
     content: |-
       I am a computer science enthusiast passionate about software engineering, artificial intelligence, and building solutions that create real-world impact.
 
@@ -52,6 +64,7 @@ params:
     skills:
       enable: true
       title: "Technologies and skills I am exploring:"
+
       items:
         - "Python"
         - "JavaScript"
@@ -64,76 +77,80 @@ params:
         - "Research"
         - "Project Management"
   experience:
-  enable: true
-  title: "Experience"
+    enable: true
+    title: "Experience"
 
-  items:
+    items:
 
-    - company: "ThinkNeuro"
-      companyUrl: ""
-      jobs:
-        - name: "Software Engineering Practicum Intern"
-          date: "June 2026 - Present"
-          content: |-
-            Developed practical software engineering skills through hands-on projects involving Git/GitHub, version control, debugging, APIs, and real-world software development workflows.
+      - company: "ThinkNeuro"
+        companyUrl: ""
+        jobs:
+          - name: "Software Engineering Practicum Intern"
+            date: "June 2026 - Present"
+            content: |-
+              Developed practical software engineering skills through hands-on projects involving Git/GitHub, version control, debugging, APIs, and real-world software development workflows.
 
-            Built software projects while applying engineering best practices including documentation, collaboration, problem-solving, testing, and iterative development.
+              Built software projects while applying engineering best practices including documentation, collaboration, problem-solving, testing, and iterative development.
 
-            Designed and deployed a personal portfolio website while strengthening technical, project management, and software engineering skills through real-world development experiences.
+              Designed and deployed a personal portfolio website while strengthening technical, project management, and software engineering skills through real-world development experiences.
 
-    - company: "Car Wash Management Services Inc."
-      companyUrl: ""
-      jobs:
-        - name: "Personal Assistant to CEO & Operations Assistant"
-          date: "June 2026 - Present"
-          content: |-
-            Provided executive, administrative, and operational support to the CEO by managing schedules, business communications, research, documentation, and day-to-day business operations.
 
-            Coordinated multiple business workflows, organized operational records, prepared reports, and supported project execution across various business initiatives.
+      - company: "Car Wash Management Services Inc."
+        companyUrl: ""
+        jobs:
+          - name: "Personal Assistant to CEO & Operations Assistant"
+            date: "June 2026 - Present"
+            content: |-
+              Provided executive, administrative, and operational support to the CEO by managing schedules, business communications, research, documentation, and day-to-day business operations.
 
-            Managed marketing and outreach initiatives for new car wash business ventures, including LinkedIn networking, partnership outreach, content planning, and communication with prospective business partners.
+              Coordinated multiple business workflows, organized operational records, prepared reports, and supported project execution across various business initiatives.
 
-            Assisted with business development, strategic planning, client relationship management, and remote collaboration to support company growth and operational efficiency.
+              Managed marketing and outreach initiatives for new car wash business ventures, including LinkedIn networking, partnership outreach, content planning, and communication with prospective business partners.
 
-    - company: "EQ"
-      companyUrl: ""
-      jobs:
-        - name: "Real Estate Client Success Assistant & Outreach Manager"
-          date: "March 2026 - Present"
-          content: |-
-            Managed client communications through email, phone, messaging platforms, and Follow Up Boss (FUB) CRM, ensuring timely responses and consistent follow-up with buyers, sellers, landlords, and tenants.
+              Assisted with business development, strategic planning, client relationship management, and remote collaboration to support company growth and operational efficiency.
 
-            Conducted outbound outreach to homeowners regarding foreclosure opportunities, discussing property status, foreclosure balances, available options, and maintaining consistent follow-up throughout the process.
 
-            Maintained accurate CRM records, tracked client interactions, managed lead pipelines, and prepared daily reports to support business operations and improve lead conversion.
+      - company: "GY Prime Estates"
+        companyUrl: ""
+        jobs:
+          - name: "Real Estate Client Success Assistant"
+            date: "July 2025 - Present"
+            content: |-
+              Managed client communications through email, phone, messaging platforms, and Follow Up Boss (FUB) CRM while providing professional support to buyers, sellers, landlords, and tenants.
 
-            Assisted with administrative operations, workflow management, client support, and remote team collaboration while ensuring a high standard of customer service.
+              Qualified, nurtured, and followed up with real estate leads, maintaining organized CRM records until appointments, applications, or transaction milestones were successfully completed.
 
-    - company: "GY Prime Estates"
-      companyUrl: ""
-      jobs:
-        - name: "Real Estate Client Success Assistant"
-          date: "July 2026 - Present"
-          content: |-
-            Managed client communications through email, phone, messaging platforms, and Follow Up Boss (FUB) CRM while providing professional support to buyers, sellers, landlords, and tenants.
+              Assisted with property searches, listing preparation, Facebook Marketplace listings, lease applications, offer documentation, and client onboarding throughout the sales and leasing process.
 
-            Qualified, nurtured, and followed up with real estate leads, maintaining organized CRM records until appointments, applications, or transaction milestones were successfully completed.
+              Coordinated administrative operations, prepared daily activity reports, managed documentation, and supported remote business operations while delivering exceptional client service.
 
-            Assisted with property searches, listing preparation, Facebook Marketplace listings, lease applications, offer documentation, and client onboarding throughout the sales and leasing process.
 
-            Coordinated administrative operations, prepared daily activity reports, managed documentation, and supported remote business operations while delivering exceptional client service.
+      - company: "EQ"
+        companyUrl: ""
+        jobs:
+          - name: "Real Estate Client Success Assistant & Outreach Manager"
+            date: "March 2026 - Present"
+            content: |-
+              Managed foreclosure outreach campaigns by contacting homeowners regarding distressed and foreclosed properties to understand their situations and provide consistent follow-up support.
 
-    - company: "Uplift"
-      companyUrl: ""
-      jobs:
-        - name: "Dental Insurance Collections Specialist"
-          date: "July 2025 - September 2025"
-          content: |-
-            Managed insurance collections and account recovery processes for a Canadian dental practice by communicating directly with insurance providers.
+              Conducted outbound calls and communications with property owners, discussing foreclosure status, outstanding amounts, property details, and potential next steps.
 
-            Verified insurance eligibility, reviewed claims, followed up on outstanding balances, and assisted with payment resolution processes.
+              Maintained and updated CRM records to track homeowner interactions, follow-up activities, property information, and outreach progress throughout the lead management process.
 
-            Maintained accurate documentation, updated account records, and supported revenue cycle operations through organized communication and administrative support.
+              Managed outreach pipelines, organized communication workflows, and prepared updates to support foreclosure-related real estate operations and business development efforts.
+
+
+      - company: "Uplift"
+        companyUrl: ""
+        jobs:
+          - name: "Dental Insurance Collections Specialist"
+            date: "July 2025 - September 2025"
+            content: |-
+              Managed insurance collections and account recovery processes for a Canadian dental practice by communicating directly with insurance providers.
+
+              Verified insurance eligibility, reviewed claims, followed up on outstanding balances, and assisted with payment resolution processes.
+
+              Maintained accurate documentation, updated account records, and supported revenue cycle operations through organized communication and administrative support.
   projects:
     enable: true
     title: "Projects"
@@ -150,23 +167,31 @@ params:
 
           Core features include AI interview scoring, ATS-optimized resume generation, business idea analysis, progress tracking, and personalized improvement recommendations.
 
+
       - title: "AI & Machine Learning in University Admissions Research"
+        image: "images/research.jpg"
         content: |-
           Conducted an independent research project exploring how AI and machine learning-based recommendation systems can reduce university application misalignment.
 
           Analyzed recommendation approaches and explored how data-driven systems could support better decision-making during the university application process.
 
+
       - title: "Personal Portfolio Website"
+        image: "images/wesbitess.jpg"
         content: |-
           Designed and developed a personal portfolio website using Hugo to showcase technical projects, experience, skills, and professional growth.
 
           Implemented website configuration, customization, and deployment workflows while learning modern web development practices.
 
+
       - title: "ThinkNeuro Software Engineering Projects"
+        image: "images/git.jpg"
         content: |-
           Developed software engineering projects through the ThinkNeuro practicum while learning Git/GitHub workflows, APIs, debugging, documentation, and collaborative development practices.
 
           Applied software engineering concepts through hands-on development projects and real-world engineering workflows.
+
+
 
   achievements:
     enable: true
@@ -180,11 +205,13 @@ params:
 
           Organized a book drive that collected 50+ books to promote reading and improve access to educational resources.
 
+
       - title: "The Citizen Foundation (TCF) — Summer Volunteer Program"
         content: |-
           Completed 100+ volunteer hours teaching English and foundational skills to 60+ underprivileged students.
 
           Supported educational activities focused on improving learning opportunities and student development.
+
 
       - title: "Dawn Education Expo — Volunteer Operations Team"
         content: |-
@@ -192,16 +219,17 @@ params:
 
           Assisted with coordination, organization, and attendee management to ensure smooth event execution.
 
+
       - title: "Alpha College — Rufus House Core Team"
         content: |-
           Contributed to college event planning, operations, and creative development as part of the core team.
 
           Designed promotional materials and supported the execution of annual college activities, contributing 20+ hours.
 
+
       - title: "Student Leadership & Council Involvement"
         content: |-
           Participated in student leadership initiatives, representing peers and contributing to school and college activities.
-
   education:
     enable: true
     title: "Education"
@@ -212,19 +240,21 @@ params:
         school:
           name: "Alpha College, Karachi"
           url: ""
+
         date: "2025 - 2027"
+
         content: |-
           Studying Mathematics, Physics, Chemistry, and Computer Science.
 
           Focused on developing strong foundations in mathematics, programming, problem-solving, and scientific thinking.
 
+
       - title: "O Levels"
         school:
           name: "Dawood Public School"
           url: ""
+
         date: "Completed"
+
         content: |-
           Completed O Levels with 9 A/A* grades, including 4 A* grades.
-
-
-# trigger rebuild
