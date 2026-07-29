@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Categories on Sara Hania</title>
-		<link>http://localhost:1313/sara-personal-website/categories/</link>
+		<link>https://sara-h7.github.io/sara-personal-website/categories/</link>
 		<description>Recent content in Categories on Sara Hania</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -10,6 +10,6 @@
 		
 		
 		
-			<atom:link href="http://localhost:1313/sara-personal-website/categories/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://sara-h7.github.io/sara-personal-website/categories/index.xml" rel="self" type="application/rss+xml" />
 	</channel>
 </rss>

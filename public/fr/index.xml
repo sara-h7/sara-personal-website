@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Frs on Sara Hania</title>
-		<link>http://localhost:1313/sara-personal-website/fr/</link>
+		<link>https://sara-h7.github.io/sara-personal-website/fr/</link>
 		<description>Recent content in Frs on Sara Hania</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Sat, 25 Jun 2022 18:35:46 +0530</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/sara-personal-website/fr/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://sara-h7.github.io/sara-personal-website/fr/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Galerie d&#39;Images</title>
-				<link>http://localhost:1313/sara-personal-website/fr/gallery/</link>
+				<link>https://sara-h7.github.io/sara-personal-website/fr/gallery/</link>
 				<pubDate>Sat, 25 Jun 2022 18:35:46 +0530</pubDate>
-				<guid>http://localhost:1313/sara-personal-website/fr/gallery/</guid>
+				<guid>https://sara-h7.github.io/sara-personal-website/fr/gallery/</guid>
 				<description></description>
 			</item>
 	</channel>

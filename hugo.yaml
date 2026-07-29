@@ -169,7 +169,7 @@ params:
 
 
       - title: "AI & Machine Learning in University Admissions Research"
-        image: "images/research.jpg"
+        image: "images/research.JPG"
         content: |-
           Conducted an independent research project exploring how AI and machine learning-based recommendation systems can reduce university application misalignment.
 
@@ -177,7 +177,7 @@ params:
 
 
       - title: "Personal Portfolio Website"
-        image: "images/wesbitess.jpg"
+        image: "images/wesbitess.JPG"
         content: |-
           Designed and developed a personal portfolio website using Hugo to showcase technical projects, experience, skills, and professional growth.
 
@@ -185,7 +185,7 @@ params:
 
 
       - title: "ThinkNeuro Software Engineering Projects"
-        image: "images/git.jpg"
+        image: "images/git.JPG"
         content: |-
           Developed software engineering projects through the ThinkNeuro practicum while learning Git/GitHub workflows, APIs, debugging, documentation, and collaborative development practices.
 
